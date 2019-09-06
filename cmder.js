@@ -1,8 +1,8 @@
 ;(function(root){
- let is={}
+ let is={},fn={};
  is.string=function(value) {
   return toString.call(value) === '[object String]';
- } let fn={}
+ }
  fn.q=(s,doc=document)=>{return doc.querySelector(s)}
  fn.a2=function(me,p){p.appendChild(me);return me}
  fn.i3=(d)=>{
